@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Vikash from './paragraph';
 
 class App extends Component {
   render() {
@@ -8,8 +9,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <h1>Hi we are learning</h1>
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Editqwjhkdbqwhjkdbqwjdkb jwdbk <code>src/App.js</code> and save to reload.
           </p>
           <a
             className="App-link"
@@ -19,6 +21,8 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Vikash  />
+          
         </header>
       </div>
     );
